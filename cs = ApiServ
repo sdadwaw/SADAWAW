@@ -1,0 +1,5 @@
+  // Get a reference to a Content Service 
+  IContentService cs = ApiServiceFactory.getContentService(apiContext); 
+ 
+  // Attempt to purchase a content item as part of a campaign 
+  cs.purchaseContent(contentId, campaignId, true); 
