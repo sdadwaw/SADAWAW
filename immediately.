@@ -1,0 +1,2 @@
+# A dry run query completes immediately.
+print("This query will process {} bytes.".format(query_
