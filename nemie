@@ -1,0 +1,7 @@
+    small_enemies = pygame.sprite.Group()
+    add_small_enemies(small_enemies, enemies, 15)
+ 
+    mid_enemies = pygame.sprite.Group()
+    add_mid_enemies(mid_enemies, enemies, 5)
+ 
+    big_enemies = pygame.sprite.Group()
