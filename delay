@@ -1,0 +1,9 @@
+    big_enemies = pygame.sprite.Group()
+    add_big_enemies(big_enemies, enemies, 1)
+ 
+    running = True
+    switch_image = True
+    delay = 100
+    score = 0
+    score_font = pygame.font.Font("font/font.ttf", 36)
+     
