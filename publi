@@ -1,0 +1,8 @@
+    public void keyReleased(KeyEvent e) {
+ 
+        myTank.keyReleased(e);
+    }
+ 
+    public void aI(Tank tank) {
+        if (TIMEOUT) {
+            tank.setUp(false);
