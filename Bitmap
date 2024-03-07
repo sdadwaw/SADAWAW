@@ -1,0 +1,4 @@
+    public void loadBitmaps(int key, Drawable d) {
+        Bitmap bitmap = Bitmap.createBitmap(iconSize, iconSize,
+                Bitmap.Config.ARGB_8888);
+        Canvas canvas = new Canvas(bitmap);
