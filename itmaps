@@ -1,0 +1,5 @@
+        Resources r = getResources();
+        loadBitmaps(1, r.getDrawable(R.drawable.fruit_01));
+        loadBitmaps(2, r.getDrawable(R.drawable.fruit_02));
+        loadBitmaps(3, r.getDrawable(R.drawable.fruit_03));
+        loadBitmaps(4, r.getDrawable(R.drawable.fruit_04));
