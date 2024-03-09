@@ -1,0 +1,7 @@
+			printf("Small! Press any key to try again!\n");
+		}
+		else
+		{
+			if( Number == price )
+			{
+				printf("OK! You are right! Bye Bye!\n");
