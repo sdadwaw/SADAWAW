@@ -1,0 +1,6 @@
+			}
+			else if( Number < price )
+			{
+				printf("Sorry,Only a little smaller! Press any key to try again!\n");
+
+			}
