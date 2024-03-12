@@ -1,0 +1,4 @@
+	for(i=0;i<sizeof(num)/sizeof(num[0]);i++)
+		for(j=0;j<sizeof(scale)/sizeof(scale[0]);j++)
+			if(circle(num[i],scale[j]))
+				printf("%d -> (%d) is a Circle Number!\n",num[i],scale[j]);
