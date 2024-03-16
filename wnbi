@@ -1,0 +1,5 @@
+        x=0
+        y+=1
+print("！")
+new_img.save("out.jpg",quality=100)  
+src1 = cv2.imread("start.jpg")  
