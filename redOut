@@ -1,0 +1,3 @@
+                    new BufferedOutputStream(new FileOutputStream("/IdeaProjects/client2/src/test/java/com/client2/cnblogtest/teststream.txt")));
+            long start = System.currentTimeMillis();
+            for(int i=0;i<10000;i++){
